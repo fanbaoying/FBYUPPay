@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F3CBB325C11077004A5CAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBB225C11077004A5CAA /* AppDelegate.m */; };
+		26F3CBB625C11077004A5CAA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBB525C11077004A5CAA /* SceneDelegate.m */; };
+		26F3CBB925C11077004A5CAA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBB825C11077004A5CAA /* ViewController.mm */; };
+		26F3CBBC25C11077004A5CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F3CBBA25C11077004A5CAA /* Main.storyboard */; };
+		26F3CBBE25C1107A004A5CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F3CBBD25C1107A004A5CAA /* Assets.xcassets */; };
+		26F3CBC125C1107A004A5CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F3CBBF25C1107A004A5CAA /* LaunchScreen.storyboard */; };
+		26F3CBC425C1107A004A5CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBC325C1107A004A5CAA /* main.m */; };
+		26F3CBCE25C1107B004A5CAA /* FBYUPPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBCD25C1107B004A5CAA /* FBYUPPayTests.m */; };
+		26F3CBD925C1107B004A5CAA /* FBYUPPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3CBD825C1107B004A5CAA /* FBYUPPayUITests.m */; };
+		26F3CBEC25C11128004A5CAA /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F3CBEB25C11128004A5CAA /* libPaymentControl.a */; };
+		26F3CBEF25C113C2004A5CAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F3CBEE25C113C2004A5CAA /* CFNetwork.framework */; };
+		26F3CBF125C113CC004A5CAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F3CBF025C113CC004A5CAA /* SystemConfiguration.framework */; };
+		26F3CBF325C113D6004A5CAA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F3CBF225C113D6004A5CAA /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F3CBCA25C1107B004A5CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F3CBA625C11077004A5CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F3CBAD25C11077004A5CAA;
+			remoteInfo = FBYUPPay;
+		};
+		26F3CBD525C1107B004A5CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F3CBA625C11077004A5CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F3CBAD25C11077004A5CAA;
+			remoteInfo = FBYUPPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F3CBAE25C11077004A5CAA /* FBYUPPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBYUPPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F3CBB125C11077004A5CAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F3CBB225C11077004A5CAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F3CBB425C11077004A5CAA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		26F3CBB525C11077004A5CAA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		26F3CBB725C11077004A5CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26F3CBB825C11077004A5CAA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		26F3CBBB25C11077004A5CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F3CBBD25C1107A004A5CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F3CBC025C1107A004A5CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F3CBC225C1107A004A5CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F3CBC325C1107A004A5CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F3CBC925C1107B004A5CAA /* FBYUPPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBYUPPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F3CBCD25C1107B004A5CAA /* FBYUPPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYUPPayTests.m; sourceTree = "<group>"; };
+		26F3CBCF25C1107B004A5CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F3CBD425C1107B004A5CAA /* FBYUPPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBYUPPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F3CBD825C1107B004A5CAA /* FBYUPPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYUPPayUITests.m; sourceTree = "<group>"; };
+		26F3CBDA25C1107B004A5CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F3CBEA25C11121004A5CAA /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		26F3CBEB25C11128004A5CAA /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		26F3CBEE25C113C2004A5CAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26F3CBF025C113CC004A5CAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		26F3CBF225C113D6004A5CAA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F3CBAB25C11077004A5CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F3CBF325C113D6004A5CAA /* libz.tbd in Frameworks */,
+				26F3CBF125C113CC004A5CAA /* SystemConfiguration.framework in Frameworks */,
+				26F3CBEF25C113C2004A5CAA /* CFNetwork.framework in Frameworks */,
+				26F3CBEC25C11128004A5CAA /* libPaymentControl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBC625C1107B004A5CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBD125C1107B004A5CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F3CBA525C11077004A5CAA = {
+			isa = PBXGroup;
+			children = (
+				26F3CBB025C11077004A5CAA /* FBYUPPay */,
+				26F3CBCC25C1107B004A5CAA /* FBYUPPayTests */,
+				26F3CBD725C1107B004A5CAA /* FBYUPPayUITests */,
+				26F3CBAF25C11077004A5CAA /* Products */,
+				26F3CBED25C113C2004A5CAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26F3CBAF25C11077004A5CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBAE25C11077004A5CAA /* FBYUPPay.app */,
+				26F3CBC925C1107B004A5CAA /* FBYUPPayTests.xctest */,
+				26F3CBD425C1107B004A5CAA /* FBYUPPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F3CBB025C11077004A5CAA /* FBYUPPay */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBE925C1109A004A5CAA /* UPPaySDK */,
+				26F3CBB125C11077004A5CAA /* AppDelegate.h */,
+				26F3CBB225C11077004A5CAA /* AppDelegate.m */,
+				26F3CBB425C11077004A5CAA /* SceneDelegate.h */,
+				26F3CBB525C11077004A5CAA /* SceneDelegate.m */,
+				26F3CBB725C11077004A5CAA /* ViewController.h */,
+				26F3CBB825C11077004A5CAA /* ViewController.mm */,
+				26F3CBBA25C11077004A5CAA /* Main.storyboard */,
+				26F3CBBD25C1107A004A5CAA /* Assets.xcassets */,
+				26F3CBBF25C1107A004A5CAA /* LaunchScreen.storyboard */,
+				26F3CBC225C1107A004A5CAA /* Info.plist */,
+				26F3CBC325C1107A004A5CAA /* main.m */,
+			);
+			path = FBYUPPay;
+			sourceTree = "<group>";
+		};
+		26F3CBCC25C1107B004A5CAA /* FBYUPPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBCD25C1107B004A5CAA /* FBYUPPayTests.m */,
+				26F3CBCF25C1107B004A5CAA /* Info.plist */,
+			);
+			path = FBYUPPayTests;
+			sourceTree = "<group>";
+		};
+		26F3CBD725C1107B004A5CAA /* FBYUPPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBD825C1107B004A5CAA /* FBYUPPayUITests.m */,
+				26F3CBDA25C1107B004A5CAA /* Info.plist */,
+			);
+			path = FBYUPPayUITests;
+			sourceTree = "<group>";
+		};
+		26F3CBE925C1109A004A5CAA /* UPPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBEB25C11128004A5CAA /* libPaymentControl.a */,
+				26F3CBEA25C11121004A5CAA /* UPPaymentControl.h */,
+			);
+			path = UPPaySDK;
+			sourceTree = "<group>";
+		};
+		26F3CBED25C113C2004A5CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F3CBF225C113D6004A5CAA /* libz.tbd */,
+				26F3CBF025C113CC004A5CAA /* SystemConfiguration.framework */,
+				26F3CBEE25C113C2004A5CAA /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F3CBAD25C11077004A5CAA /* FBYUPPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F3CBDD25C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPay" */;
+			buildPhases = (
+				26F3CBAA25C11077004A5CAA /* Sources */,
+				26F3CBAB25C11077004A5CAA /* Frameworks */,
+				26F3CBAC25C11077004A5CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBYUPPay;
+			productName = FBYUPPay;
+			productReference = 26F3CBAE25C11077004A5CAA /* FBYUPPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F3CBC825C1107B004A5CAA /* FBYUPPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F3CBE025C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPayTests" */;
+			buildPhases = (
+				26F3CBC525C1107B004A5CAA /* Sources */,
+				26F3CBC625C1107B004A5CAA /* Frameworks */,
+				26F3CBC725C1107B004A5CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F3CBCB25C1107B004A5CAA /* PBXTargetDependency */,
+			);
+			name = FBYUPPayTests;
+			productName = FBYUPPayTests;
+			productReference = 26F3CBC925C1107B004A5CAA /* FBYUPPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F3CBD325C1107B004A5CAA /* FBYUPPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F3CBE325C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPayUITests" */;
+			buildPhases = (
+				26F3CBD025C1107B004A5CAA /* Sources */,
+				26F3CBD125C1107B004A5CAA /* Frameworks */,
+				26F3CBD225C1107B004A5CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F3CBD625C1107B004A5CAA /* PBXTargetDependency */,
+			);
+			name = FBYUPPayUITests;
+			productName = FBYUPPayUITests;
+			productReference = 26F3CBD425C1107B004A5CAA /* FBYUPPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F3CBA625C11077004A5CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					26F3CBAD25C11077004A5CAA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					26F3CBC825C1107B004A5CAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 26F3CBAD25C11077004A5CAA;
+					};
+					26F3CBD325C1107B004A5CAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 26F3CBAD25C11077004A5CAA;
+					};
+				};
+			};
+			buildConfigurationList = 26F3CBA925C11077004A5CAA /* Build configuration list for PBXProject "FBYUPPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F3CBA525C11077004A5CAA;
+			productRefGroup = 26F3CBAF25C11077004A5CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F3CBAD25C11077004A5CAA /* FBYUPPay */,
+				26F3CBC825C1107B004A5CAA /* FBYUPPayTests */,
+				26F3CBD325C1107B004A5CAA /* FBYUPPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F3CBAC25C11077004A5CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F3CBC125C1107A004A5CAA /* LaunchScreen.storyboard in Resources */,
+				26F3CBBE25C1107A004A5CAA /* Assets.xcassets in Resources */,
+				26F3CBBC25C11077004A5CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBC725C1107B004A5CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBD225C1107B004A5CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F3CBAA25C11077004A5CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F3CBB925C11077004A5CAA /* ViewController.mm in Sources */,
+				26F3CBB325C11077004A5CAA /* AppDelegate.m in Sources */,
+				26F3CBC425C1107A004A5CAA /* main.m in Sources */,
+				26F3CBB625C11077004A5CAA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBC525C1107B004A5CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F3CBCE25C1107B004A5CAA /* FBYUPPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3CBD025C1107B004A5CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F3CBD925C1107B004A5CAA /* FBYUPPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F3CBCB25C1107B004A5CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F3CBAD25C11077004A5CAA /* FBYUPPay */;
+			targetProxy = 26F3CBCA25C1107B004A5CAA /* PBXContainerItemProxy */;
+		};
+		26F3CBD625C1107B004A5CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F3CBAD25C11077004A5CAA /* FBYUPPay */;
+			targetProxy = 26F3CBD525C1107B004A5CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F3CBBA25C11077004A5CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F3CBBB25C11077004A5CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F3CBBF25C1107A004A5CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F3CBC025C1107A004A5CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F3CBDB25C1107B004A5CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26F3CBDC25C1107B004A5CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F3CBDE25C1107B004A5CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYUPPay/UPPaySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/FBYUPPay/UPPaySDK/libPaymentControl.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26F3CBDF25C1107B004A5CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYUPPay/UPPaySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/FBYUPPay/UPPaySDK/libPaymentControl.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		26F3CBE125C1107B004A5CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYUPPay.app/FBYUPPay";
+			};
+			name = Debug;
+		};
+		26F3CBE225C1107B004A5CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYUPPay.app/FBYUPPay";
+			};
+			name = Release;
+		};
+		26F3CBE425C1107B004A5CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBYUPPay;
+			};
+			name = Debug;
+		};
+		26F3CBE525C1107B004A5CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				INFOPLIST_FILE = FBYUPPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.FBYUPPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBYUPPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F3CBA925C11077004A5CAA /* Build configuration list for PBXProject "FBYUPPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F3CBDB25C1107B004A5CAA /* Debug */,
+				26F3CBDC25C1107B004A5CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F3CBDD25C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F3CBDE25C1107B004A5CAA /* Debug */,
+				26F3CBDF25C1107B004A5CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F3CBE025C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F3CBE125C1107B004A5CAA /* Debug */,
+				26F3CBE225C1107B004A5CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F3CBE325C1107B004A5CAA /* Build configuration list for PBXNativeTarget "FBYUPPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F3CBE425C1107B004A5CAA /* Debug */,
+				26F3CBE525C1107B004A5CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F3CBA625C11077004A5CAA /* Project object */;
+}

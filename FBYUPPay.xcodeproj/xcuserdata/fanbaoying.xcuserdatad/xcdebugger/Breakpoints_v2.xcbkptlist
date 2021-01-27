@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B1A503EB-E08A-400C-B9E8-31715FF28F4A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBB8A477-38AB-4D0D-8EA2-D4840142C174"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FBYUPPay/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-application:openURL:options:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBB8A477-38AB-4D0D-8EA2-D4840142C174 - e29cd4fffa145f27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate application:openURL:options:]"
+                  moduleName = "FBYUPPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanbaoying/Document/ios/TestDemo/FBYUPPay/FBYUPPay/AppDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "FBB8A477-38AB-4D0D-8EA2-D4840142C174 - c4fc58fd0b893050"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[AppDelegate application:openURL:options:]_block_invoke"
+                  moduleName = "FBYUPPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanbaoying/Document/ios/TestDemo/FBYUPPay/FBYUPPay/AppDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
